@@ -23,12 +23,14 @@ Developed by: A.LAHARI
 RegisterNumber:  212223230111
 */
 ```
+
 ```
 import pandas as pd
 import numpy as np
 dataset=pd.read_csv("Placement_Data.csv")
 dataset
 ```
+
 ```
 dataset = dataset.drop('sl_no',axis=1)
 dataset = dataset.drop('salary',axis=1)
@@ -43,6 +45,7 @@ dataset["status"]=dataset["status"].astype('category')
 dataset["hsc_s"]=dataset["hsc_s"].astype('category')
 dataset.dtypes
 ```
+
 ```
 dataset["gender"]=dataset["gender"].cat.codes
 dataset["ssc_b"]=dataset["ssc_b"].cat.codes
@@ -54,11 +57,13 @@ dataset["status"]=dataset["status"].cat.codes
 dataset["hsc_s"]=dataset["hsc_s"].cat.codes
 dataset
 ```
+
 ```
 X=dataset.iloc[:,:-1].values
 Y=dataset.iloc[:,-1].values
 Y
 ```
+
 ```
 theta = np.random.randn(X.shape[1])
 y =Y
@@ -83,22 +88,27 @@ y_pred = predict(theta,X)
 accuracy = np.mean(y_pred.flatten()==y)
 print("Accuracy:", accuracy)
 ```
+
 ```
 print(y_pred)
 ```
+
 ```
 print(Y)
 ```
+
 ```
 xnew = np.array([[0,87,0,95,0,2,78,2,0,0,1,0]])
 y_prednew = predict(theta,xnew)
 print(y_prednew)
 ```
+
 ```
 xnew = np.array([[0,0,0,0,0,2,8,2,0,0,1,0]])
 y_prednew = predict(theta,xnew)
 print(y_prednew)
 ```
+
 
 ## Output:
 
