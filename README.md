@@ -112,40 +112,41 @@ print(y_prednew)
 
 ## Output:
 
-Dataset
+## Dataset
 
-![Screenshot 2025-03-29 183116](https://github.com/user-attachments/assets/9513fe3b-7627-4be0-950d-93fb7021a2bc)
+![image](https://github.com/user-attachments/assets/ed744821-57c3-4b0d-9ad6-8c7e2b8a8b98)
 
+## dtypes
 
-![Screenshot 2025-03-29 183336](https://github.com/user-attachments/assets/7a373be2-42d6-46d7-87e6-1a10c390c9ea)
+![image](https://github.com/user-attachments/assets/6de79f0c-cad6-4057-a82d-65c4a0581bad)
 
+## dataset
 
+![image](https://github.com/user-attachments/assets/92b2936b-b76f-4b0e-a85c-408a1befcd81)
 
-![Screenshot 2025-03-29 183348](https://github.com/user-attachments/assets/218defc0-c787-4bb3-8e61-eccd8da75868)
+## y array
 
+![image](https://github.com/user-attachments/assets/2766e7b8-8548-4158-9782-32979c564ded)
 
-![Screenshot 2025-03-29 183358](https://github.com/user-attachments/assets/12bd1b85-a4e3-4db1-bcbd-67d38a00d80c)
+## Accuracy
 
+![image](https://github.com/user-attachments/assets/5837f697-e01e-4f45-8009-3828296a69ce)
 
+## y_pred
 
+![image](https://github.com/user-attachments/assets/d9971619-9c9c-4492-a134-d16051d08d13)
 
+## y
 
+![image](https://github.com/user-attachments/assets/180b42ab-696a-4581-82b4-18b06a175f0c)
 
-Accuracy and Predicted value
+## y_prednew
 
-![Screenshot 2025-03-29 183406](https://github.com/user-attachments/assets/25cc2796-c9c8-4316-b52d-72ccf0ef2367)
+![image](https://github.com/user-attachments/assets/17ef50d8-4817-47aa-9738-20c1849cfb1e)
 
-Predicted value
+## y_prednew
 
-
-![Screenshot 2025-03-29 183425](https://github.com/user-attachments/assets/376b22db-537b-4ec6-b2b4-3113e90ced2d)
-
-
-![Screenshot 2025-03-29 183433](https://github.com/user-attachments/assets/cf6ff1ea-7537-4af5-ad60-0921364626cc)
-
-
-![Screenshot 2025-03-29 183445](https://github.com/user-attachments/assets/205e7346-4508-4360-827b-3e50729de7ab)
-
+![image](https://github.com/user-attachments/assets/f6533576-d624-4c51-82f9-a8b8bcd2ac85)
 
 ## Result:
 Thus the program to implement the the Logistic Regression Using Gradient Descent is written and verified using python programming.
