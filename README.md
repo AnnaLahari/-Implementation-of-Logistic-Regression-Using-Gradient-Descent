@@ -9,11 +9,33 @@ To write a program to implement the the Logistic Regression Using Gradient Desce
 
 ## Algorithm :
 
-1.Import the required libraries.
-2.Load the dataset and print the values. 
-3.Define X and Y array and display the value.
-4.Find the value for cost and gradient. 
-5.Plot the decision boundary and predict the Regression value.
+1.Import the required libraries and Load the Dataset
+
+2.Drop Irrelevant Columns (sl_no, salary)
+
+3.Convert Categorical Columns to Category Data Type
+
+4.Encode Categorical Columns as Numeric Codes
+
+5.Split Dataset into Features (X) and Target (Y)
+
+6.Initialize Model Parameters (theta) Randomly
+
+7.Define Sigmoid Activation Function
+
+8.Define Logistic Loss Function (Binary Cross-Entropy)
+
+9.Implement Gradient Descent to Minimize Loss
+
+10.Train the Model by Updating theta Iteratively
+
+11.Define Prediction Function Using Threshold (0.5)
+
+12.Predict Outcomes for Training Set
+
+13.Calculate and Display Accuracy
+
+14.Make Predictions on New Data Samples
 
 ## Program:
 ```
